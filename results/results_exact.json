@@ -1,0 +1,42 @@
+{
+ "one mass, uniform prior": {
+  "white": 0.6753133958798496,
+  "score": 0.6701331955890061,
+  "score_blind": 0.6701331955890061,
+  "label": 0.5186202440412961,
+  "public": 0.5,
+  "adv_score": 0.00518020029084354,
+  "adv_score_blind": 0.00518020029084354,
+  "adv_label": 0.15669315183855348
+ },
+ "three masses, uniform prior": {
+  "white": 0.6796545961496534,
+  "score": 0.6774641010348676,
+  "score_blind": 0.6730134284677836,
+  "label": 0.5227275854545219,
+  "public": 0.5,
+  "adv_score": 0.002190495114785751,
+  "adv_score_blind": 0.006641167681869842,
+  "adv_label": 0.15692701069513149
+ },
+ "three masses, informative prior Beta(5,5)": {
+  "white": 0.5653310506703076,
+  "score": 0.5639637793315281,
+  "score_blind": 0.5619510738516049,
+  "label": 0.5141091010942838,
+  "public": 0.5,
+  "adv_score": 0.0013672713387795632,
+  "adv_score_blind": 0.0033799768187027235,
+  "adv_label": 0.051221949576023884
+ },
+ "three masses, skewed prior Beta(0.5,0.5)": {
+  "white": 0.7464294245675471,
+  "score": 0.7432223044402337,
+  "score_blind": 0.7353987445137378,
+  "label": 0.524958779241772,
+  "public": 0.5,
+  "adv_score": 0.00320712012731339,
+  "adv_score_blind": 0.01103068005380936,
+  "adv_label": 0.2214706453257751
+ }
+}

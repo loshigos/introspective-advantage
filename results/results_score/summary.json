@@ -1,0 +1,1730 @@
+[
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "public",
+  "auroc": 0.5013057474232907,
+  "lo": 0.4908751803362457,
+  "hi": 0.5126569014292561,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "beh_q0",
+  "auroc": 0.6864575607899053,
+  "lo": 0.674821790205941,
+  "hi": 0.6978143798230715,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "beh_q6",
+  "auroc": 0.6867639477532593,
+  "lo": 0.6753133949254666,
+  "hi": 0.6975184799947823,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "beh_q24",
+  "auroc": 0.6885330244797692,
+  "lo": 0.677150874886589,
+  "hi": 0.6994094751123644,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "beh_q96",
+  "auroc": 0.6888644452235708,
+  "lo": 0.6771785428012972,
+  "hi": 0.7002215404141402,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "beh_q384",
+  "auroc": 0.6949058619376899,
+  "lo": 0.6827389392246748,
+  "hi": 0.7067158105330444,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "white",
+  "auroc": 0.6953633682144982,
+  "lo": 0.6827939494625742,
+  "hi": 0.7077005748099426,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "trace",
+  "auroc": 0.6956482942619475,
+  "lo": 0.6827762683476637,
+  "hi": 0.7084762965115518,
+  "acc": 0.794375
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "adv_vs_public",
+  "auroc": 0.19405762079120742,
+  "lo": 0.1793271920821303,
+  "hi": 0.20793632581990223,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.008905807424592932,
+  "lo": 0.00448161124072619,
+  "hi": 0.01327779021257643,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.008599420461238886,
+  "lo": 0.003961681646010268,
+  "hi": 0.013422397553700645,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.006830343734728961,
+  "lo": 0.0021496292372504898,
+  "hi": 0.011438990096888875,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.006498922990927361,
+  "lo": 0.0025141835861903434,
+  "hi": 0.010303160410225781,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.00045750627680834767,
+  "lo": -0.0015428960192224526,
+  "hi": 0.0023812558470415715,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "mlp",
+  "level": "trace_minus_white",
+  "auroc": 0.000284926047449377,
+  "lo": -0.0024374056207490074,
+  "hi": 0.003065342543540904,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "public",
+  "auroc": 0.5012138776627786,
+  "lo": 0.489952530122482,
+  "hi": 0.5123506257742402,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "beh_q0",
+  "auroc": 0.575238295289229,
+  "lo": 0.5617169862655811,
+  "hi": 0.5881400210007232,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "beh_q6",
+  "auroc": 0.664234094075139,
+  "lo": 0.6477884746539364,
+  "hi": 0.6789562454510809,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "beh_q24",
+  "auroc": 0.7069894673787278,
+  "lo": 0.6915157428936963,
+  "hi": 0.7211587728715705,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "beh_q96",
+  "auroc": 0.7344121219890581,
+  "lo": 0.7213704449330245,
+  "hi": 0.7463559866898828,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "beh_q384",
+  "auroc": 0.7495586425085909,
+  "lo": 0.735664819848033,
+  "hi": 0.7618601141291776,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "white",
+  "auroc": 0.7476964280301706,
+  "lo": 0.7345279719501078,
+  "hi": 0.7602749367472271,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "trace",
+  "auroc": 0.7835473078318899,
+  "lo": 0.7716121081081591,
+  "hi": 0.79561171639054,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "twin",
+  "auroc": 0.7468289892760416,
+  "lo": 0.7332765611939772,
+  "hi": 0.7594702659486406,
+  "acc": 0.6935
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "adv_vs_public",
+  "auroc": 0.2464825503673919,
+  "lo": 0.2277094510957702,
+  "hi": 0.265068811474358,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.17245813274094163,
+  "lo": 0.1573903954601302,
+  "hi": 0.1877853881924168,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.08346233395503153,
+  "lo": 0.07128342527549285,
+  "hi": 0.09551010721721304,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.04070696065144272,
+  "lo": 0.03469361797983102,
+  "hi": 0.04692326921709461,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.013284306041112401,
+  "lo": 0.0086797314867832,
+  "hi": 0.018123586385307363,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "adv_vs_beh_q384",
+  "auroc": -0.0018622144784204348,
+  "lo": -0.005105073412103909,
+  "hi": 0.0014751178987694137,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "adv_vs_twin",
+  "auroc": 0.0008674387541289574,
+  "lo": -0.0013985215070570563,
+  "hi": 0.0031144775330813525,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "tree",
+  "level": "trace_minus_white",
+  "auroc": 0.03585087980171932,
+  "lo": 0.027679139171981917,
+  "hi": 0.043854677256117816,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "public",
+  "auroc": 0.508865420990503,
+  "lo": 0.49812205924628844,
+  "hi": 0.519311854670161,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "beh_q0",
+  "auroc": 0.6867280129542955,
+  "lo": 0.6781562468917495,
+  "hi": 0.6960017640873332,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "beh_q6",
+  "auroc": 0.6945422484364114,
+  "lo": 0.6854815200513223,
+  "hi": 0.7038120704452296,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "beh_q24",
+  "auroc": 0.7007716478111774,
+  "lo": 0.6910487843697157,
+  "hi": 0.7104779876862947,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "beh_q96",
+  "auroc": 0.7085240399252124,
+  "lo": 0.6977644164327542,
+  "hi": 0.7192781688662923,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "beh_q384",
+  "auroc": 0.7164781621222392,
+  "lo": 0.7052578748547843,
+  "hi": 0.7277723942114873,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "white",
+  "auroc": 0.7157230156419679,
+  "lo": 0.7043014239262243,
+  "hi": 0.7274116253352565,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "trace",
+  "auroc": 0.7293324692394736,
+  "lo": 0.7182677283224018,
+  "hi": 0.7405405525626931,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "twin",
+  "auroc": 0.716296483245126,
+  "lo": 0.7048474309157228,
+  "hi": 0.7276357365347779,
+  "acc": 0.757875
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "adv_vs_public",
+  "auroc": 0.2068575946514649,
+  "lo": 0.1911477462344651,
+  "hi": 0.22269639385412526,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.02899500268767251,
+  "lo": 0.020827951656819648,
+  "hi": 0.03710510567888942,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.021180767205556526,
+  "lo": 0.013222386904193254,
+  "hi": 0.029283792796623034,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.01495136783079046,
+  "lo": 0.007344802734754559,
+  "hi": 0.02297527494242312,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.007198975716755593,
+  "lo": 0.002171143989091422,
+  "hi": 0.012399560570808828,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "adv_vs_beh_q384",
+  "auroc": -0.0007551464802713515,
+  "lo": -0.002487304854971105,
+  "hi": 0.001048643435583802,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "adv_vs_twin",
+  "auroc": -0.0005734676031580094,
+  "lo": -0.0026817123617353714,
+  "hi": 0.0017081169409186956,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "forest",
+  "level": "trace_minus_white",
+  "auroc": 0.013609453597505672,
+  "lo": 0.007457717534888226,
+  "hi": 0.019715669564791427,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "public",
+  "auroc": 0.49864678150758357,
+  "lo": 0.48827826893654513,
+  "hi": 0.5091421607442037,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "beh_q0",
+  "auroc": 0.6818557371439429,
+  "lo": 0.6703450131364904,
+  "hi": 0.6925934301119835,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "beh_q6",
+  "auroc": 0.6902200667679752,
+  "lo": 0.6798508175669222,
+  "hi": 0.7003969603044433,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "beh_q24",
+  "auroc": 0.6979369398713049,
+  "lo": 0.6869142679306233,
+  "hi": 0.7083885501787662,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "beh_q96",
+  "auroc": 0.7062832918284494,
+  "lo": 0.6956842535644414,
+  "hi": 0.7172468739435028,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "beh_q384",
+  "auroc": 0.7161605892701048,
+  "lo": 0.7043415132821043,
+  "hi": 0.727654638389912,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "white",
+  "auroc": 0.7175733431823742,
+  "lo": 0.7058394938705611,
+  "hi": 0.7290070076679327,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "trace",
+  "auroc": 0.718172263422723,
+  "lo": 0.7071645428600909,
+  "hi": 0.7289140643016768,
+  "acc": 0.7600625
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "adv_vs_public",
+  "auroc": 0.21892656167479072,
+  "lo": 0.19972364946720106,
+  "hi": 0.23683819158464994,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.03571760603843133,
+  "lo": 0.026095175166433275,
+  "hi": 0.04519512675553749,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.027353276414399018,
+  "lo": 0.018248630297886044,
+  "hi": 0.035836350808808426,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.019636403311069264,
+  "lo": 0.010890412659993694,
+  "hi": 0.02856419818918635,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.011290051353924788,
+  "lo": 0.005764753493559674,
+  "hi": 0.016495528866251316,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.0014127539122693739,
+  "lo": -0.00024246346323841947,
+  "hi": 0.0031261469162604917,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-net",
+  "model": "knn",
+  "level": "trace_minus_white",
+  "auroc": 0.0005989202403487548,
+  "lo": -0.0015498223701528497,
+  "hi": 0.0028102525892503573,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "public",
+  "auroc": 0.5063347065038946,
+  "lo": 0.4926959507561874,
+  "hi": 0.5201376298244437,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "beh_q0",
+  "auroc": 0.6534415878647933,
+  "lo": 0.6427600960902913,
+  "hi": 0.6638355954420785,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "beh_q6",
+  "auroc": 0.6549357019498852,
+  "lo": 0.6449454565996479,
+  "hi": 0.66533181067826,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "beh_q24",
+  "auroc": 0.657585256566573,
+  "lo": 0.6458031384930781,
+  "hi": 0.6692340973267293,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "beh_q96",
+  "auroc": 0.6650510437062183,
+  "lo": 0.6537325353119876,
+  "hi": 0.6766819318231386,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "beh_q384",
+  "auroc": 0.6622723968149954,
+  "lo": 0.6497762559783334,
+  "hi": 0.6753335164098738,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "white",
+  "auroc": 0.6661917552777047,
+  "lo": 0.654138663740294,
+  "hi": 0.6784831886035484,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "trace",
+  "auroc": 0.6825314598788241,
+  "lo": 0.670367029127397,
+  "hi": 0.695127229405348,
+  "acc": 0.72775
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "adv_vs_public",
+  "auroc": 0.15985704877381018,
+  "lo": 0.14096672878284497,
+  "hi": 0.17930032060326517,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.01275016741291142,
+  "lo": 0.005935641804275204,
+  "hi": 0.019243796667848357,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.011256053327819626,
+  "lo": 0.004742269325466311,
+  "hi": 0.017534624774435296,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.008606498711131847,
+  "lo": 0.002708527733925743,
+  "hi": 0.014209145806233751,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.0011407115714865107,
+  "lo": -0.0023944180400262654,
+  "hi": 0.004721381404921884,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.003919358462709413,
+  "lo": 0.0018326421881429782,
+  "hi": 0.005932685240683799,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "mlp",
+  "level": "trace_minus_white",
+  "auroc": 0.016339704601119342,
+  "lo": 0.011734030883642034,
+  "hi": 0.02080971435952153,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "public",
+  "auroc": 0.520267060594677,
+  "lo": 0.5081942516519588,
+  "hi": 0.5330650131908684,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "beh_q0",
+  "auroc": 0.6095578519170988,
+  "lo": 0.5920538011750123,
+  "hi": 0.62876897515812,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "beh_q6",
+  "auroc": 0.6639903953299079,
+  "lo": 0.6473566543324567,
+  "hi": 0.6811851991914584,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "beh_q24",
+  "auroc": 0.6788938368039996,
+  "lo": 0.6633867666660616,
+  "hi": 0.6940034140914694,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "beh_q96",
+  "auroc": 0.6889453322367323,
+  "lo": 0.672300042917629,
+  "hi": 0.7056148105904089,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "beh_q384",
+  "auroc": 0.6900603414665243,
+  "lo": 0.674377288861168,
+  "hi": 0.7071758539947696,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "white",
+  "auroc": 0.7052709249000293,
+  "lo": 0.6890996793430638,
+  "hi": 0.7222202702483438,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "trace",
+  "auroc": 0.7205963472353575,
+  "lo": 0.7052129321663444,
+  "hi": 0.736599660074816,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "twin",
+  "auroc": 0.7029637973778116,
+  "lo": 0.6875931554991158,
+  "hi": 0.7195029334888435,
+  "acc": 0.7540000000000001
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "adv_vs_public",
+  "auroc": 0.18500386430535234,
+  "lo": 0.16442611714592997,
+  "hi": 0.2056593179866925,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.09571307298293054,
+  "lo": 0.07842265870750519,
+  "hi": 0.11333563006204492,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.04128052957012146,
+  "lo": 0.029243918460835856,
+  "hi": 0.053212596876227196,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.02637708809602956,
+  "lo": 0.016170584075128325,
+  "hi": 0.03690942588690852,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.016325592663297046,
+  "lo": 0.006759122910092612,
+  "hi": 0.025998530979697045,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.015210583433504985,
+  "lo": 0.005845315631560805,
+  "hi": 0.024469840688266225,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "adv_vs_twin",
+  "auroc": 0.002307127522217642,
+  "lo": -0.0016305644124022555,
+  "hi": 0.006042483212649216,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "tree",
+  "level": "trace_minus_white",
+  "auroc": 0.015325422335328224,
+  "lo": 0.010061576676829614,
+  "hi": 0.021053664333040914,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "public",
+  "auroc": 0.49711360670262844,
+  "lo": 0.4849722168795756,
+  "hi": 0.5081021708985363,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "beh_q0",
+  "auroc": 0.6536550293402441,
+  "lo": 0.6371750494432294,
+  "hi": 0.6694638756030754,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "beh_q6",
+  "auroc": 0.6537638090884208,
+  "lo": 0.6369033238878724,
+  "hi": 0.6699434977184594,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "beh_q24",
+  "auroc": 0.6536746529925261,
+  "lo": 0.6365976662712907,
+  "hi": 0.6700516944961896,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "beh_q96",
+  "auroc": 0.6531925765812983,
+  "lo": 0.6356551912899778,
+  "hi": 0.6700553653942057,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "beh_q384",
+  "auroc": 0.6574870173778464,
+  "lo": 0.6416344291574232,
+  "hi": 0.6727411029243149,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "white",
+  "auroc": 0.6573616721709431,
+  "lo": 0.641264865274272,
+  "hi": 0.6733074139132205,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "trace",
+  "auroc": 0.6556329333752607,
+  "lo": 0.6394760176463711,
+  "hi": 0.6719801716345469,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "twin",
+  "auroc": 0.6563021423698527,
+  "lo": 0.6405810194858128,
+  "hi": 0.6721144535743816,
+  "acc": 0.801375
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "adv_vs_public",
+  "auroc": 0.16024806546831472,
+  "lo": 0.13967496763666817,
+  "hi": 0.1814281492349379,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.003706642830698986,
+  "lo": -0.0022143880507307944,
+  "hi": 0.009895665393594322,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.0035978630825223125,
+  "lo": -0.001711707086659677,
+  "hi": 0.00948573758109808,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.00368701917841707,
+  "lo": -0.0021843297244558686,
+  "hi": 0.009486570083684216,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.004169095589644819,
+  "lo": -0.001565156267705,
+  "hi": 0.010635726169139298,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "adv_vs_beh_q384",
+  "auroc": -0.0001253452069032851,
+  "lo": -0.0030346140497156905,
+  "hi": 0.002912528066038526,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "adv_vs_twin",
+  "auroc": 0.0010595298010902699,
+  "lo": -0.0017747813407187538,
+  "hi": 0.004085944978640159,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "forest",
+  "level": "trace_minus_white",
+  "auroc": -0.001728738795682322,
+  "lo": -0.0056257977797564826,
+  "hi": 0.002070282274173741,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "public",
+  "auroc": 0.4990469061132877,
+  "lo": 0.4837329087672843,
+  "hi": 0.5147756350993589,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "beh_q0",
+  "auroc": 0.6585902249093043,
+  "lo": 0.6447406704276445,
+  "hi": 0.6728343854406363,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "beh_q6",
+  "auroc": 0.66124316384672,
+  "lo": 0.6471029593227206,
+  "hi": 0.6747564061554449,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "beh_q24",
+  "auroc": 0.6622997714021729,
+  "lo": 0.6476954075752176,
+  "hi": 0.6772235403354318,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "beh_q96",
+  "auroc": 0.6667981472832171,
+  "lo": 0.6518324257301769,
+  "hi": 0.6813295458020563,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "beh_q384",
+  "auroc": 0.6651552951409411,
+  "lo": 0.6501418944880797,
+  "hi": 0.6798881885574473,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "white",
+  "auroc": 0.6647818957023246,
+  "lo": 0.6502337484536816,
+  "hi": 0.6790128405243777,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "trace",
+  "auroc": 0.6790293090366919,
+  "lo": 0.6649885196575557,
+  "hi": 0.692931845262005,
+  "acc": 0.7223124999999999
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "adv_vs_public",
+  "auroc": 0.16573498958903668,
+  "lo": 0.14729067905997564,
+  "hi": 0.1838725676349749,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.006191670793020135,
+  "lo": 0.0015975956263177941,
+  "hi": 0.010822173086990931,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.003538731855604521,
+  "lo": -0.00065406821352352,
+  "hi": 0.007611206561186023,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.0024821243001516115,
+  "lo": -0.0020032621540738843,
+  "hi": 0.0066673997266125115,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "adv_vs_beh_q96",
+  "auroc": -0.0020162515808926224,
+  "lo": -0.004928142083823542,
+  "hi": 0.0008545384337337912,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "adv_vs_beh_q384",
+  "auroc": -0.00037339943861656175,
+  "lo": -0.002354746334175163,
+  "hi": 0.0016020478971130467,
+  "acc": NaN
+ },
+ {
+  "family": "teacher-tree",
+  "model": "knn",
+  "level": "trace_minus_white",
+  "auroc": 0.014247413334367345,
+  "lo": 0.0090508196659391,
+  "hi": 0.01953220501325789,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "public",
+  "auroc": 0.8049165800650433,
+  "lo": 0.7917209231054929,
+  "hi": 0.8174500634527223,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "beh_q0",
+  "auroc": 0.9028270500067561,
+  "lo": 0.8952801383076712,
+  "hi": 0.9102383647162815,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "beh_q6",
+  "auroc": 0.8998410458748815,
+  "lo": 0.8912480486423919,
+  "hi": 0.9077724422394924,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "beh_q24",
+  "auroc": 0.9037229556243979,
+  "lo": 0.8948610567269181,
+  "hi": 0.9118659565012186,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "beh_q96",
+  "auroc": 0.9117579140373323,
+  "lo": 0.9042690319013094,
+  "hi": 0.9188900052104162,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "beh_q384",
+  "auroc": 0.9176058570516267,
+  "lo": 0.9109451256805827,
+  "hi": 0.9236642535638196,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "white",
+  "auroc": 0.9190050961108989,
+  "lo": 0.9125053916063881,
+  "hi": 0.9248589720192703,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "trace",
+  "auroc": 0.9875899829219559,
+  "lo": 0.9851672747128982,
+  "hi": 0.9895543703477588,
+  "acc": 0.9246666666666666
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "adv_vs_public",
+  "auroc": 0.11408851604585549,
+  "lo": 0.09973406708215622,
+  "hi": 0.12850245950620356,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.016178046104142675,
+  "lo": 0.011680130473025234,
+  "hi": 0.02080450370497038,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.01916405023601728,
+  "lo": 0.014500183663560505,
+  "hi": 0.024024450128953632,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.015282140486500933,
+  "lo": 0.010213895040582725,
+  "hi": 0.02059422738137168,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.0072471820735665275,
+  "lo": 0.0030106299332476045,
+  "hi": 0.011564167402806714,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.0013992390592722005,
+  "lo": -7.013832637842053e-05,
+  "hi": 0.002916017361234843,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "mlp",
+  "level": "trace_minus_white",
+  "auroc": 0.06858488681105723,
+  "lo": 0.06324111675868432,
+  "hi": 0.0748415305838541,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "public",
+  "auroc": 0.6717270232432165,
+  "lo": 0.6586614811226447,
+  "hi": 0.6854650885169801,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "beh_q0",
+  "auroc": 0.7389063802550652,
+  "lo": 0.7238475423445093,
+  "hi": 0.7531679582570294,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "beh_q6",
+  "auroc": 0.779110300507442,
+  "lo": 0.7583986829479722,
+  "hi": 0.7979823860154561,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "beh_q24",
+  "auroc": 0.8131135897761785,
+  "lo": 0.7979992672861295,
+  "hi": 0.8282863851139369,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "beh_q96",
+  "auroc": 0.8379717103346502,
+  "lo": 0.825196274196477,
+  "hi": 0.8509433401136639,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "beh_q384",
+  "auroc": 0.8452015859978836,
+  "lo": 0.832279742286199,
+  "hi": 0.8576899034945726,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "white",
+  "auroc": 0.8468744585958848,
+  "lo": 0.8356516154585141,
+  "hi": 0.8580729389235321,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "trace",
+  "auroc": 0.9930622778953369,
+  "lo": 0.9917770742509486,
+  "hi": 0.9941702569512947,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "twin",
+  "auroc": 0.8429117991439028,
+  "lo": 0.831304568792889,
+  "hi": 0.854726916336452,
+  "acc": 0.8345416666666665
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "adv_vs_public",
+  "auroc": 0.17514743535266836,
+  "lo": 0.16136785429191985,
+  "hi": 0.18963338946227287,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.10796807834081965,
+  "lo": 0.09698947529560102,
+  "hi": 0.11987685623173959,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.06776415808844279,
+  "lo": 0.051466022631782585,
+  "hi": 0.08700742475629593,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.03376086881970624,
+  "lo": 0.024196644829455702,
+  "hi": 0.04360822800520401,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.008902748261234508,
+  "lo": 0.0026586963018062596,
+  "hi": 0.016104937264254413,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.0016728725980012572,
+  "lo": -0.002450806466649056,
+  "hi": 0.005843758531622725,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "adv_vs_twin",
+  "auroc": 0.003962659451981976,
+  "lo": 0.0010821125123380748,
+  "hi": 0.006833907722174794,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "tree",
+  "level": "trace_minus_white",
+  "auroc": 0.14618781929945213,
+  "lo": 0.13476121839345848,
+  "hi": 0.15763582068703064,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "public",
+  "auroc": 0.8331163295686819,
+  "lo": 0.8180789508020544,
+  "hi": 0.8465709027511704,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "beh_q0",
+  "auroc": 0.9212684751340342,
+  "lo": 0.9145284040488156,
+  "hi": 0.9271274583749343,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "beh_q6",
+  "auroc": 0.9176761946894365,
+  "lo": 0.9103609078898001,
+  "hi": 0.9237431682302251,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "beh_q24",
+  "auroc": 0.9180231954340966,
+  "lo": 0.9107539738306114,
+  "hi": 0.9245110401227931,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "beh_q96",
+  "auroc": 0.9195170934601151,
+  "lo": 0.9119586258638422,
+  "hi": 0.926356636951969,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "beh_q384",
+  "auroc": 0.9206449959249149,
+  "lo": 0.9132073853090737,
+  "hi": 0.9273224040779885,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "white",
+  "auroc": 0.9232840221564855,
+  "lo": 0.916238861934055,
+  "hi": 0.9297370022570081,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "trace",
+  "auroc": 0.9868417450134108,
+  "lo": 0.9842713058524782,
+  "hi": 0.9891306870599381,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "twin",
+  "auroc": 0.92184648600287,
+  "lo": 0.9143955984301597,
+  "hi": 0.9284778591864286,
+  "acc": 0.9257500000000001
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "adv_vs_public",
+  "auroc": 0.09016769258780362,
+  "lo": 0.0773551659537068,
+  "hi": 0.103623720671683,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.0020155470224512808,
+  "lo": -0.0016348791298466806,
+  "hi": 0.0053419479944762085,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.005607827467049115,
+  "lo": 0.0023283229487350834,
+  "hi": 0.009007109737232637,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.005260826722389011,
+  "lo": 0.0027345041314591305,
+  "hi": 0.007799075985858483,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.0037669286963703474,
+  "lo": 0.0013786246254135733,
+  "hi": 0.00607223592146442,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.002639026231570596,
+  "lo": 0.0009102184449553695,
+  "hi": 0.004559486117447438,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "adv_vs_twin",
+  "auroc": 0.0014375361536154985,
+  "lo": -6.437147552196071e-05,
+  "hi": 0.0028424055582661235,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "forest",
+  "level": "trace_minus_white",
+  "auroc": 0.06355772285692532,
+  "lo": 0.05731789998132818,
+  "hi": 0.0701030967682782,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "public",
+  "auroc": 0.9020969783500492,
+  "lo": 0.891429085889815,
+  "hi": 0.9110028963903164,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "beh_q0",
+  "auroc": 0.9526584383963119,
+  "lo": 0.9473183388868368,
+  "hi": 0.9576011786282533,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "beh_q6",
+  "auroc": 0.9513647682063523,
+  "lo": 0.9454082381455409,
+  "hi": 0.9566726809370476,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "beh_q24",
+  "auroc": 0.9525030873118749,
+  "lo": 0.9466178350858986,
+  "hi": 0.95763168812505,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "beh_q96",
+  "auroc": 0.9547800140553019,
+  "lo": 0.9493394256943865,
+  "hi": 0.9597304010425062,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "beh_q384",
+  "auroc": 0.9563937133029835,
+  "lo": 0.9511109612794273,
+  "hi": 0.9612587919077518,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "white",
+  "auroc": 0.9591676192882985,
+  "lo": 0.954586615189717,
+  "hi": 0.9633187322214077,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "trace",
+  "auroc": 0.9879491143539857,
+  "lo": 0.9858354403225624,
+  "hi": 0.9898403666194036,
+  "acc": 0.9334166666666667
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "adv_vs_public",
+  "auroc": 0.05707064093824935,
+  "lo": 0.048364403474103305,
+  "hi": 0.06690218694506302,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "adv_vs_beh_q0",
+  "auroc": 0.006509180891986449,
+  "lo": 0.004321949661452596,
+  "hi": 0.00871420098665153,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "adv_vs_beh_q6",
+  "auroc": 0.007802851081946216,
+  "lo": 0.005228331544866454,
+  "hi": 0.010421654822805269,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "adv_vs_beh_q24",
+  "auroc": 0.006664531976423466,
+  "lo": 0.003998231795160302,
+  "hi": 0.00937657782955192,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "adv_vs_beh_q96",
+  "auroc": 0.004387605232996525,
+  "lo": 0.002546814080483634,
+  "hi": 0.006386998765785861,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "adv_vs_beh_q384",
+  "auroc": 0.002773905985314992,
+  "lo": 0.001122776591874343,
+  "hi": 0.004576132725836315,
+  "acc": NaN
+ },
+ {
+  "family": "digits-partition",
+  "model": "knn",
+  "level": "trace_minus_white",
+  "auroc": 0.028781495065687168,
+  "lo": 0.02555845156370332,
+  "hi": 0.03226387009618195,
+  "acc": NaN
+ }
+]

@@ -1,0 +1,218 @@
+[
+ {
+  "family": "teacher-net",
+  "channel": "label",
+  "level": "probe_beh",
+  "auroc": 0.6294360165346499,
+  "lo": 0.6091649616713347,
+  "hi": 0.6485661766235894
+ },
+ {
+  "family": "teacher-net",
+  "channel": "label",
+  "level": "probe_white",
+  "auroc": 0.632610621717822,
+  "lo": 0.6133181219197108,
+  "hi": 0.6514156219907582
+ },
+ {
+  "family": "teacher-net",
+  "channel": "label",
+  "level": "probe_adv",
+  "auroc": 0.0031746051831720466,
+  "lo": -0.005948323656775206,
+  "hi": 0.012623398868162791
+ },
+ {
+  "family": "teacher-net",
+  "channel": "label",
+  "level": "crossagent_adv_seeds",
+  "auroc": 0.0014003705571563033,
+  "sd": 0.001431947148064577,
+  "values": [
+   0.0031730855577869256,
+   0.0013618456447849758,
+   -0.00033381953110299124
+  ]
+ },
+ {
+  "family": "teacher-net",
+  "channel": "score",
+  "level": "probe_beh",
+  "auroc": 0.6346687299454986,
+  "lo": 0.6137743013697129,
+  "hi": 0.6542544375150665
+ },
+ {
+  "family": "teacher-net",
+  "channel": "score",
+  "level": "probe_white",
+  "auroc": 0.6340029760245374,
+  "lo": 0.6138242588273151,
+  "hi": 0.6533697640127027
+ },
+ {
+  "family": "teacher-net",
+  "channel": "score",
+  "level": "probe_adv",
+  "auroc": -0.0006657539209613067,
+  "lo": -0.008709228955494922,
+  "hi": 0.007583050685855968
+ },
+ {
+  "family": "teacher-net",
+  "channel": "score",
+  "level": "crossagent_adv_seeds",
+  "auroc": 0.0017171403432275764,
+  "sd": 0.0009160825836592898,
+  "values": [
+   0.0004292407891354877,
+   0.0024827330569895225,
+   0.002239447183557719
+  ]
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "label",
+  "level": "probe_beh",
+  "auroc": 0.6273354386110638,
+  "lo": 0.6084137651784985,
+  "hi": 0.6451959786333179
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "label",
+  "level": "probe_white",
+  "auroc": 0.6208956059139317,
+  "lo": 0.6049834210947572,
+  "hi": 0.6361700811017673
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "label",
+  "level": "probe_adv",
+  "auroc": -0.006439832697132164,
+  "lo": -0.014119825906061506,
+  "hi": 0.0010416879001061714
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "label",
+  "level": "crossagent_adv_seeds",
+  "auroc": 0.0034174285345380685,
+  "sd": 0.00042661324530485087,
+  "values": [
+   0.0028233979537120118,
+   0.003805789560412029,
+   0.003623098089490165
+  ]
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "score",
+  "level": "probe_beh",
+  "auroc": 0.6324220682160488,
+  "lo": 0.6163163042418418,
+  "hi": 0.648237331345099
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "score",
+  "level": "probe_white",
+  "auroc": 0.6259437567307,
+  "lo": 0.6111148309173899,
+  "hi": 0.6400324245144929
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "score",
+  "level": "probe_adv",
+  "auroc": -0.00647831148534884,
+  "lo": -0.013789917541477719,
+  "hi": 8.441491452205666e-05
+ },
+ {
+  "family": "teacher-tree",
+  "channel": "score",
+  "level": "crossagent_adv_seeds",
+  "auroc": 0.0014726242345537155,
+  "sd": 0.0006679580654650046,
+  "values": [
+   0.0017414685550253134,
+   0.0021224494934034056,
+   0.0005539546552324276
+  ]
+ },
+ {
+  "family": "digits-partition",
+  "channel": "label",
+  "level": "probe_beh",
+  "auroc": 0.7660976736134423,
+  "lo": 0.7420413205976856,
+  "hi": 0.7871595224996262
+ },
+ {
+  "family": "digits-partition",
+  "channel": "label",
+  "level": "probe_white",
+  "auroc": 0.7653955668506687,
+  "lo": 0.7415263911894544,
+  "hi": 0.7865449901390972
+ },
+ {
+  "family": "digits-partition",
+  "channel": "label",
+  "level": "probe_adv",
+  "auroc": -0.0007021067627734662,
+  "lo": -0.005822518887737615,
+  "hi": 0.004760142815366052
+ },
+ {
+  "family": "digits-partition",
+  "channel": "label",
+  "level": "crossagent_adv_seeds",
+  "auroc": 0.004748218764890885,
+  "sd": 0.0003544712456070295,
+  "values": [
+   0.005010983619145634,
+   0.004247119189838697,
+   0.004986553485688325
+  ]
+ },
+ {
+  "family": "digits-partition",
+  "channel": "score",
+  "level": "probe_beh",
+  "auroc": 0.7833587237505218,
+  "lo": 0.7586222328814125,
+  "hi": 0.8047798818046548
+ },
+ {
+  "family": "digits-partition",
+  "channel": "score",
+  "level": "probe_white",
+  "auroc": 0.7834809045443457,
+  "lo": 0.759316929254455,
+  "hi": 0.8043491572169907
+ },
+ {
+  "family": "digits-partition",
+  "channel": "score",
+  "level": "probe_adv",
+  "auroc": 0.00012218079382391722,
+  "lo": -0.004582206848060789,
+  "hi": 0.0053499858182975936
+ },
+ {
+  "family": "digits-partition",
+  "channel": "score",
+  "level": "crossagent_adv_seeds",
+  "auroc": -0.0005170272016359806,
+  "sd": 0.0004072036716559908,
+  "values": [
+   -1.9191831194459442e-05,
+   -0.0010166283591244497,
+   -0.0005152614145890327
+  ]
+ }
+]
